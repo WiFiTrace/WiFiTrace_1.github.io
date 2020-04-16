@@ -1,4 +1,4 @@
-Installation and Usage
+# Installation and Usage
 
 ## Dependencies and Installation
 The code works with Python 3.7 and is also Python 2.7 compatible. You need to install Python (3.7 preferred) and the following list of packages:
