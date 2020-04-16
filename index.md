@@ -10,6 +10,8 @@
 * No need to install sensors or perform infrastructure upgrade
 * No laborious fingerprinting of existing infrastructure needed.
 
+### How is WiTrace different from other apps and tools?
+
 Many tools and apps have been developed for contact tracing using bluetooth, GPS, and self/active recording of locations visited by users. Despite a plethora of apps, we lack a method to perform passive contact tracing without installing any apps on mobile devices or actively mapping locations.
 
 WiTrace has the capability to perform contact tracing of patients with users co-located at the same place and same time and also to identify users who visited the location after the departure of the infected person while the pathogens spread by the infected person are still alive.
@@ -24,21 +26,6 @@ WiTrace is a complete solution including reporting the locations visited by an i
 * Configurable pathogen activity parameter
 
 
-### How is WiTrace different from other apps and tools?
-
 ### How does WiTrace Work?
 
-### 
 
-
-Consider a user with an infectious disease who visits an office building or complex. The user does not show any symptoms during the visit but shows symptoms a few days later. At that point, it is important to determine what locations within the office building/complex were visited by the user and which other users were in the proximity of the user at each visited location. Our system uses enterprise WiFi networks to perform contact tracing of a user. Today, WiFi networks are ubiquitous in office environments, campus, malls, cafes and some cities. Users carry mobile devices (phone, ipad, laptop) with them that are connected to the Wifi network. Our research has shown that mobility patterns (i.e., locations visited by the device) are a good proxy for the user’s mobility (locations visited by the user). Enterprise WiFi networks log information when a device connects to an access point (AP), which indicates that the device and the user are in the vicinity of the access point. As the device/user moves, they connect to different access points and their mobility pattern over the course of a day or multiple days can be analyzed. We use the WiFi logs from all the APs to generate device/user mobility and then use these device/user mobility trajectory to identify other individuals/devices that were co-located either at the same time or within the activity period of the pathogens at the locations visited by the patient.
-
-WiTrace has the ability to generate location history of an infected individual over a given period of time (Patient_Report) and constructs a list of colocated individuals with a summary of total co-located duration as well as a detailed listing of locations and durations of co-location over the given time period (User_Report).
-
-It also has the ability to incorporate a co-location listing of all individuals who visited a location after the infected patient has left the location but the pathogens spread are still active.
-
-WiTrace creates detailed reports on:
-
-locations visited and time of visit of the Infected person (report named Patient_Report)
-co-location report listing all individuals co-located with the infected person either at the same time or within the window in which pathogens are active even after the infected person has left the location. (report named User_Report)
-Our tool can be used with any type of input trajectory [WiFi, GPS, fingerprinted location ids, cellular data, etc]
