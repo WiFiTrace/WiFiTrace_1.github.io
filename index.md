@@ -17,7 +17,7 @@ Many tools and apps have been developed for contact tracing using bluetooth, GPS
 WiTrace has the capability to perform contact tracing of patients with users co-located at the same place and same time and also to identify users who visited the location after the departure of the infected person while the pathogens spread by the infected person are still alive.
 
 **WiTrace Features:**
-WiTrace is a complete solution including reporting the locations visited by an infected patient, co-location reporting of other users with the infected patient, configurable timing for pathogen active time period, configurable constraints on patient visit durations, implementation on a Enterprise WiFi Network; and extensive evaluation under many conditions including varying pathogen time window, patient visit durations.
+
 * Infected Person location visit report
 * Co-locators summary report( list of co-locators with duration and location of co-location
 * Detail Co-location report of each co-locator
@@ -25,6 +25,7 @@ WiTrace is a complete solution including reporting the locations visited by an i
 * Configurable Patient visit duration parameter
 * Configurable pathogen activity parameter
 
+WiTrace is a complete solution including reporting the locations visited by an infected patient, co-location reporting of other users with the infected patient, configurable timing for pathogen active time period, configurable constraints on patient visit durations, implementation on a Enterprise WiFi Network; and extensive evaluation under many conditions including varying pathogen time window, patient visit durations.
 
 ### How does WiTrace Work?
 
