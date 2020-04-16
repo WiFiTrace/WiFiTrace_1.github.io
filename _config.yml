@@ -1,1 +1,10 @@
 theme: jekyll-theme-minimal
+
+title: "WiTrace"
+#email: "{firstname}trivedi@umass.edu"
+description: >- # this means to ignore newlines until "baseurl:"
+WiFi based Contact Tracing
+baseurl: "" #"/blog" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: amee_tweets
+github_username:  ameetrivedi
