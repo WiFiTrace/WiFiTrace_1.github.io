@@ -1,4 +1,4 @@
-[About]()
+#### [Installation]() [Documentation]() [About]() [Contact]()
 
 ## WiTrace : WiFi based Contact Tracing
 ### Exploiting Enterprise WiFi Networks for Sensing of Mobility Patterns and Contact Tracing of Infected Persons
