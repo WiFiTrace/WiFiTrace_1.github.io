@@ -70,10 +70,3 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
-#import "{{ site.theme }}";
-header {
-  height: 150px;
-  width: 90%;
-  background-color: white;
-}
