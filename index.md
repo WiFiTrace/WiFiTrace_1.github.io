@@ -1,4 +1,5 @@
-[About](https://github.com/WiTrace/WiTrace.github.io/blob/master/about.md)
+[About]()
+
 ## WiTrace : WiFi based Contact Tracing
 ### Exploiting Enterprise WiFi Networks for Sensing of Mobility Patterns and Contact Tracing of Infected Persons
 
