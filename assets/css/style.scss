@@ -11,11 +11,16 @@
 
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 20px;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
 }
 
 .dropdown {
@@ -24,7 +29,7 @@
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
+  font-size: 20px;  
   border: none;
   outline: none;
   color: white;
@@ -35,7 +40,8 @@
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #ddd;
+  color: black;
 }
 
 .dropdown-content {
