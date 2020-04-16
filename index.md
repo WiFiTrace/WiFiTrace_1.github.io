@@ -1,5 +1,5 @@
 ## WiTrace : WiFi based Contact Tracing
-### Exploiting Enterprise WiFi Networks for Contact Tracing of Infected Persons by Sensing Mobility Patterns 
+#### Exploiting Enterprise WiFi Networks for Contact Tracing of Infected Persons by Sensing Mobility Patterns 
 
 **WiTrace** is a **server side ready to deploy tool** that uses Enterprise WiFi logs for contact tracing. A Server side tool means there is no need to install any battery draining apps on the mobile phones of users or periodically gather location data. 
 
@@ -10,13 +10,12 @@
 * No need to install sensors or perform infrastructure upgrade
 * No laborious fingerprinting of existing infrastructure needed.
 
-
 ### WiTrace Features:
 
 * Infected Person location visit report
-* Co-locators summary report( list of co-locators with duration and location of co-location
+* Co-locators summary report (list of co-locators with duration and location of co-location)
 * Detail Co-location report of each co-locator
-* Co-location report of users visiting location after patient departure but while pathogens are active
+* Capability to identify user visits to locations with active pathogens even after patient departure from the location
 * Configurable Patient visit duration parameter
 * Configurable pathogen activity parameter
 
